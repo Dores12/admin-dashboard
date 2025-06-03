@@ -1,0 +1,53 @@
+body {
+    color: black;
+    font-size: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    background-color: rgb(39, 168, 237);
+}
+
+/* MAIN */
+
+.search-bar {
+    display: inline-flex;
+    align-items: center;
+}
+
+input {
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border: 0;
+    width: 40%;
+    margin-left: 10px;
+}
+/* Header */
+
+
+/* Subheader */ 
+.subheader {
+    box-shadow: 0px 17px 20px -10px rgba(0, 0, 0, 0.174);
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+.subheader-links a {
+    background-color: rgb(39, 168, 237);
+}
+
+/* Main Section */
+
+.main-section {
+    background-color: rgb(231, 231, 231);
+    margin-top: -20px;
+}

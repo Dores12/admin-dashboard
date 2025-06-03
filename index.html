@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="modern-normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <H1>Dashboard</H1>
+    <nav class="sidebar-main-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">Communities</a></li>
+      </ul>
+    </nav>
+    <nav class="sidebar-extra-links">
+      <ul>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <!-- Header -->
+    <header class="header">
+      <div class="search-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12A6 6 0 0110 4z"/>
+          </svg>
+        <input type="text" />
+      </div>
+      <div class="logo">Logo</div>
+      <div class="user-name">Daniel Tache</div>
+    </header>
+
+    <!-- Subheader -->
+    <div class="subheader">
+      <div class="welcome-message">Hi there, <br>Daniel Tache</div>
+      <div class="subheader-links">
+        <a href="#">New</a>
+        <a href="#">Upload</a>
+        <a href="#">Share</a>
+      </div>
+    </div>
+
+    <!-- Main section -->
+    <main class="main-section">
+        <section class="projects">
+            <h2>My Projects</h2>
+          
+            <div class="project">
+              <h3>Task Tracker</h3>
+              <p>Jednoduchá aplikácia na sledovanie každodenných úloh s možnosťou označenia ako hotové.</p>
+
+              <div class="project-actions">
+                <a href="#" title="Zobraziť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 5c-7.633 0-12 7-12 7s4.367 7 12 7 12-7 12-7-4.367-7-12-7zm0 12c-2.761 0-5-2.239-5-5s2.239-5 5-5c2.762 0 5 2.239 5 5s-2.238 5-5 5zm0-8c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.658 0 3-1.343 3-3s-1.342-3-3-3z"/></svg>
+                </a>
+                <a href="#" title="Upraviť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25zM21.41 6.34c.39-.39.39-1.03 0-1.42l-2.34-2.34a1.003 1.003 0 00-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"/></svg>
+                </a>
+                <a href="#" title="Zmazať">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 6l3 18h12l3-18H3zm5 16l-1-14h2l1 14H8zm4 0V8h2l-1 14h-1zm4 0l-1-14h2l1 14h-2zM15.5 4l-.71-.71C14.39 2.45 13.7 2 13 2h-2c-.7 0-1.39.45-1.79 1.29L8.5 4H5v2h14V4h-3.5z"/></svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="project">
+              <h3>Weather Dashboard</h3>
+              <p>Zobrazovanie aktuálneho počasia pomocou OpenWeatherMap API pre zadané mesto.</p>
+
+              <div class="project-actions">
+                <a href="#" title="Zobraziť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 5c-7.633 0-12 7-12 7s4.367 7 12 7 12-7 12-7-4.367-7-12-7zm0 12c-2.761 0-5-2.239-5-5s2.239-5 5-5c2.762 0 5 2.239 5 5s-2.238 5-5 5zm0-8c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.658 0 3-1.343 3-3s-1.342-3-3-3z"/></svg>
+                </a>
+                <a href="#" title="Upraviť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25zM21.41 6.34c.39-.39.39-1.03 0-1.42l-2.34-2.34a1.003 1.003 0 00-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"/></svg>
+                </a>
+                <a href="#" title="Zmazať">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 6l3 18h12l3-18H3zm5 16l-1-14h2l1 14H8zm4 0V8h2l-1 14h-1zm4 0l-1-14h2l1 14h-2zM15.5 4l-.71-.71C14.39 2.45 13.7 2 13 2h-2c-.7 0-1.39.45-1.79 1.29L8.5 4H5v2h14V4h-3.5z"/></svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="project">
+              <h3>Recipe Finder</h3>
+              <p>Vyhľadávač receptov podľa ingrediencií, ktorý zobrazuje recepty z externých API.</p>
+
+              <div class="project-actions">
+                <a href="#" title="Zobraziť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 5c-7.633 0-12 7-12 7s4.367 7 12 7 12-7 12-7-4.367-7-12-7zm0 12c-2.761 0-5-2.239-5-5s2.239-5 5-5c2.762 0 5 2.239 5 5s-2.238 5-5 5zm0-8c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.658 0 3-1.343 3-3s-1.342-3-3-3z"/></svg>
+                </a>
+                <a href="#" title="Upraviť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25zM21.41 6.34c.39-.39.39-1.03 0-1.42l-2.34-2.34a1.003 1.003 0 00-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"/></svg>
+                </a>
+                <a href="#" title="Zmazať">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 6l3 18h12l3-18H3zm5 16l-1-14h2l1 14H8zm4 0V8h2l-1 14h-1zm4 0l-1-14h2l1 14h-2zM15.5 4l-.71-.71C14.39 2.45 13.7 2 13 2h-2c-.7 0-1.39.45-1.79 1.29L8.5 4H5v2h14V4h-3.5z"/></svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="project">
+              <h3>Pomodoro Timer</h3>
+              <p>Nástroj na zvýšenie produktivity pomocou techniky Pomodoro – striedanie práce a prestávok.</p>
+
+              <div class="project-actions">
+                <a href="#" title="Zobraziť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 5c-7.633 0-12 7-12 7s4.367 7 12 7 12-7 12-7-4.367-7-12-7zm0 12c-2.761 0-5-2.239-5-5s2.239-5 5-5c2.762 0 5 2.239 5 5s-2.238 5-5 5zm0-8c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.658 0 3-1.343 3-3s-1.342-3-3-3z"/></svg>
+                </a>
+                <a href="#" title="Upraviť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25zM21.41 6.34c.39-.39.39-1.03 0-1.42l-2.34-2.34a1.003 1.003 0 00-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"/></svg>
+                </a>
+                <a href="#" title="Zmazať">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 6l3 18h12l3-18H3zm5 16l-1-14h2l1 14H8zm4 0V8h2l-1 14h-1zm4 0l-1-14h2l1 14h-2zM15.5 4l-.71-.71C14.39 2.45 13.7 2 13 2h-2c-.7 0-1.39.45-1.79 1.29L8.5 4H5v2h14V4h-3.5z"/></svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="project">
+              <h3>Portfolio Website</h3>
+              <p>Osobná webová stránka s prezentáciou projektov, kontaktom a životopisom.</p>
+
+              <div class="project-actions">
+                <a href="#" title="Zobraziť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 5c-7.633 0-12 7-12 7s4.367 7 12 7 12-7 12-7-4.367-7-12-7zm0 12c-2.761 0-5-2.239-5-5s2.239-5 5-5c2.762 0 5 2.239 5 5s-2.238 5-5 5zm0-8c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.658 0 3-1.343 3-3s-1.342-3-3-3z"/></svg>
+                </a>
+                <a href="#" title="Upraviť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25zM21.41 6.34c.39-.39.39-1.03 0-1.42l-2.34-2.34a1.003 1.003 0 00-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"/></svg>
+                </a>
+                <a href="#" title="Zmazať">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 6l3 18h12l3-18H3zm5 16l-1-14h2l1 14H8zm4 0V8h2l-1 14h-1zm4 0l-1-14h2l1 14h-2zM15.5 4l-.71-.71C14.39 2.45 13.7 2 13 2h-2c-.7 0-1.39.45-1.79 1.29L8.5 4H5v2h14V4h-3.5z"/></svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="project">
+              <h3>Budget Planner</h3>
+              <p>Aplikácia na sledovanie výdavkov a príjmov s prehľadnými mesačnými grafmi.</p>
+
+              <div class="project-actions">
+                <a href="#" title="Zobraziť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 5c-7.633 0-12 7-12 7s4.367 7 12 7 12-7 12-7-4.367-7-12-7zm0 12c-2.761 0-5-2.239-5-5s2.239-5 5-5c2.762 0 5 2.239 5 5s-2.238 5-5 5zm0-8c-1.657 0-3 1.343-3 3s1.343 3 3 3c1.658 0 3-1.343 3-3s-1.342-3-3-3z"/></svg>
+                </a>
+                <a href="#" title="Upraviť">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25zM21.41 6.34c.39-.39.39-1.03 0-1.42l-2.34-2.34a1.003 1.003 0 00-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"/></svg>
+                </a>
+                <a href="#" title="Zmazať">
+                  <svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 6l3 18h12l3-18H3zm5 16l-1-14h2l1 14H8zm4 0V8h2l-1 14h-1zm4 0l-1-14h2l1 14h-2zM15.5 4l-.71-.71C14.39 2.45 13.7 2 13 2h-2c-.7 0-1.39.45-1.79 1.29L8.5 4H5v2h14V4h-3.5z"/></svg>
+                </a>
+              </div>
+            </div>
+          </section>
+          
+      <aside class="side-section">
+        <section class="announcements">
+            <h2>Announcements</h2>
+          
+            <div class="announcement-item">
+              <h4>Plánovaná údržba</h4>
+              <p>V nedeľu 4. júna prebehne údržba systému medzi 01:00 a 03:00. Služby budú dočasne nedostupné.</p>
+            </div>
+          
+            <div class="announcement-item">
+              <h4>Nový dizajn dashboardu</h4>
+              <p>Predstavujeme nový responzívny vzhľad, ktorý zlepšuje používateľský zážitok aj na mobilných zariadeniach.</p>
+            </div>
+          
+            <div class="announcement-item">
+              <h4>Bezpečnostná aktualizácia</h4>
+              <p>Aktualizovali sme autentifikačný systém. Prosíme používateľov, aby si resetovali heslo.</p>
+            </div>
+          </section>
+          
+        <section class="trending">
+          <h2>Trending</h2>
+          <!-- Obsah -->
+        </section>
+      </aside>
+    </main>
+  </div>
+</body>
+</html>

@@ -38,11 +38,6 @@ a {
     min-width: 245px;
 }
 
-@media (max-width: 350px) {
-    .sidebar {
-        display: none;
-    }
-}
 
 .sidebar h1 {
     margin-bottom: 50px;
@@ -168,6 +163,9 @@ input {
 @media (max-width: 500px) {
     .main-section {
         grid-template-columns: 1fr;
+    }
+    .sidebar {
+        display: none;
     }
   }
   
